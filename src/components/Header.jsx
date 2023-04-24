@@ -7,7 +7,7 @@ const handleClickShowModal = ()=>{
 }
 
   return (
-    <header>
+    <header className='sm:flex auto-rows-auto grid-cols-2 justify-between items-center'>
 
       <h1>Usuarios</h1>
 

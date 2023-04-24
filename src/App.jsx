@@ -39,9 +39,9 @@ if(!data.image_url){
 }
 
     if(isUserIdToEdit){
-      createUser(data)
-    }else{
       editUser(data)
+    }else{
+      createUser(data)
     }
   }
 
